@@ -1,0 +1,98 @@
+.btns {
+  max-width: 170px;
+  width: 100%;
+  outline: 0;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 10px;
+  border: 0;
+}
+
+.btnCall {
+  background: transparent;
+  border: 1px solid #bb0367;
+  color: #bb0367;
+  font-weight: 700;
+
+  @media (max-width: 980px) {
+    display: none;
+  }
+
+
+  &:hover {
+    background: #bb0367;
+    color: $white;
+  }
+}
+
+.btnDoctor {
+  max-width: 190px;
+  width: 100%;
+  color: #fff;
+  background: #009ddb;
+  border: 0;
+  padding: 13px;
+  font-weight: bold;
+}
+
+.morebtn {
+  max-width: 130px;
+  width: 100%;
+  text-align: center;
+  padding: 11px;
+  color: #fff;
+  background-color: #293f94;
+  font-size: 17px;
+
+  &:hover {
+    background-color: #fff;
+    color: #293f94;
+  }
+}
+
+.btnApplic {
+  max-width: 288px;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  color: #bb0367;
+  font-size: 18px;
+  border: 1px solid #bb0367;
+  background: #fff;
+  text-transform: uppercase;
+
+  &:hover {
+    background: #bb0367;
+    color: #fff;
+  }
+
+}
+
+.btnMore {
+  background: #bb0367;
+  color: $white;
+  max-width: 175px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.btnWatch {
+  max-width: 102px;
+  width: 100%;
+  background: #bb0367;
+  color: #fff;
+  padding: 0;
+}
+
+.btnAppl {
+  padding: 9px 0;
+  background: $white;
+  font-size: 17px;
+  text-transform: uppercase;
+
+  &:hover {
+    background: #4dabff;
+    color: #fff;
+  }
+}

@@ -1,0 +1,113 @@
+.docImg {
+  &:before {
+    content: "";
+    background-image: url("../img/btnDoc_03.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 25px;
+  }
+}
+
+.activeLink {
+  &::after {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    margin-left: 8px;
+    background-color: #bb0367;
+    position: absolute;
+    top: 50%;
+  }
+}
+
+.logo {
+  &::before {
+    content: "";
+    display: inline-block;
+    background-image: url("../img/bigLogo.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 368px;
+    height: 355px;
+    position: absolute;
+    top: 20%;
+    left: -50%;
+
+    @media (max-width: 980px) {
+      display: none;
+    }
+  }
+}
+
+
+
+.search {
+  &::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background-image: url("../img/search.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 19px;
+    background-color: #bb0367;
+
+    z-index: 4;
+    border-radius: 50%;
+  }
+}
+
+
+.beat {
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/beat.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    max-width: 243px;
+    width: 100%;
+    height: 35px;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%, -25%);
+
+  }
+}
+
+.effects {
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/effectLeft.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    max-width: 572px;
+    width: 100%;
+    height: 535px;
+    top: 0;
+    @media (max-width: 1200px) {
+      display: none;
+    }
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url("../img/effectRight.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    max-width: 347px;
+    width: 100%;
+    height: 460px;
+    top: 0;
+    right: 0;
+    @media (max-width: 1200px) {
+      display: none;
+    }
+  }
+}
