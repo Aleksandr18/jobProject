@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f631ad7-5536-488e-b31a-ddd618af4555" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/src/scss/import-scss/element.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/scss/import-scss/element.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/src/scss/import-scss/icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/scss/import-scss/icon.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="9f631ad7-5536-488e-b31a-ddd618af4555" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +41,7 @@
       <workItem from="1611215592489" duration="18980000" />
       <workItem from="1611547649922" duration="67000" />
       <workItem from="1611547733115" duration="280000" />
-      <workItem from="1611668213193" duration="1824000" />
+      <workItem from="1611668213193" duration="2554000" />
     </task>
     <servers />
   </component>

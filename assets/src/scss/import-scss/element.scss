@@ -744,6 +744,10 @@
   position: relative;
   padding-right: 15px;
   height: 145px;
+  
+  @media (max-width: 760px) {
+    height: auto;
+  }
 
   .longBlockTitle {
     margin-right: 27px;
